@@ -1,6 +1,10 @@
 .main-navigation {
-	display: block;
+	display: flex;
 	width: 100%;
+	padding: 2rem;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #fff;
 
 	ul {
 		display: none;
@@ -69,6 +73,10 @@
 	}
 }
 
+.menu-item{
+	margin-right: 2rem;
+}
+
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
@@ -83,6 +91,8 @@
 
 	.main-navigation ul {
 		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 }
 
