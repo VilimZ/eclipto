@@ -63,7 +63,7 @@
 			<div class="hero-description">
 				<p class="site-description"><?php echo $eclipto_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped  	?>
 				</p>
-				<img url:
+					
 			</div>
 
 

@@ -637,7 +637,9 @@ textarea {
 	display: flex;
 	padding: 2rem;
 	justify-content: center;
-	width: 30%;
+	width: 17%;
+	border: #fff solid 2px;
+	margin-left: 2rem;
 }
 
 .site-title {
@@ -653,6 +655,13 @@ textarea {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	border: 2px solid #fff;
+	width: 21rem;
+	margin: auto;
+}
+
+.site-description {
+	transform: translate(14rem, -50%);
 }
 
 .site-main {
